@@ -12,7 +12,7 @@ procedure Main is
          arr(i) := i;
       end loop;
 
-      arr(34) := -8;
+      arr(5) := -10;
    end Init_Arr;
 
    function part_min(start_index, finish_index : in integer) return long_long_integer is
